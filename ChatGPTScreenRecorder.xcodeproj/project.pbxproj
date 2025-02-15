@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E4BAA3B62D60E49E00C35DF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4BAA3972D60E49D00C35DF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4BAA39E2D60E49D00C35DF1;
+			remoteInfo = ChatGPTScreenRecorder;
+		};
+		E4BAA3C02D60E49E00C35DF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4BAA3972D60E49D00C35DF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4BAA39E2D60E49D00C35DF1;
+			remoteInfo = ChatGPTScreenRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4BAA39F2D60E49D00C35DF1 /* ChatGPTScreenRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatGPTScreenRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BAA3B52D60E49E00C35DF1 /* ChatGPTScreenRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatGPTScreenRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BAA3BF2D60E49E00C35DF1 /* ChatGPTScreenRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatGPTScreenRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E4BAA3C72D60E49E00C35DF1 /* Exceptions for "ChatGPTScreenRecorder" folder in "ChatGPTScreenRecorder" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E4BAA39E2D60E49D00C35DF1 /* ChatGPTScreenRecorder */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E4BAA3A12D60E49D00C35DF1 /* ChatGPTScreenRecorder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E4BAA3C72D60E49E00C35DF1 /* Exceptions for "ChatGPTScreenRecorder" folder in "ChatGPTScreenRecorder" target */,
+			);
+			path = ChatGPTScreenRecorder;
+			sourceTree = "<group>";
+		};
+		E4BAA3B82D60E49E00C35DF1 /* ChatGPTScreenRecorderTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChatGPTScreenRecorderTests;
+			sourceTree = "<group>";
+		};
+		E4BAA3C22D60E49E00C35DF1 /* ChatGPTScreenRecorderUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChatGPTScreenRecorderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4BAA39C2D60E49D00C35DF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BAA3B22D60E49E00C35DF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BAA3BC2D60E49E00C35DF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4BAA3962D60E49D00C35DF1 = {
+			isa = PBXGroup;
+			children = (
+				E4BAA3A12D60E49D00C35DF1 /* ChatGPTScreenRecorder */,
+				E4BAA3B82D60E49E00C35DF1 /* ChatGPTScreenRecorderTests */,
+				E4BAA3C22D60E49E00C35DF1 /* ChatGPTScreenRecorderUITests */,
+				E4BAA3A02D60E49D00C35DF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4BAA3A02D60E49D00C35DF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4BAA39F2D60E49D00C35DF1 /* ChatGPTScreenRecorder.app */,
+				E4BAA3B52D60E49E00C35DF1 /* ChatGPTScreenRecorderTests.xctest */,
+				E4BAA3BF2D60E49E00C35DF1 /* ChatGPTScreenRecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4BAA39E2D60E49D00C35DF1 /* ChatGPTScreenRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4BAA3C82D60E49E00C35DF1 /* Build configuration list for PBXNativeTarget "ChatGPTScreenRecorder" */;
+			buildPhases = (
+				E4BAA39B2D60E49D00C35DF1 /* Sources */,
+				E4BAA39C2D60E49D00C35DF1 /* Frameworks */,
+				E4BAA39D2D60E49D00C35DF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E4BAA3A12D60E49D00C35DF1 /* ChatGPTScreenRecorder */,
+			);
+			name = ChatGPTScreenRecorder;
+			packageProductDependencies = (
+			);
+			productName = ChatGPTScreenRecorder;
+			productReference = E4BAA39F2D60E49D00C35DF1 /* ChatGPTScreenRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4BAA3B42D60E49E00C35DF1 /* ChatGPTScreenRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4BAA3CD2D60E49E00C35DF1 /* Build configuration list for PBXNativeTarget "ChatGPTScreenRecorderTests" */;
+			buildPhases = (
+				E4BAA3B12D60E49E00C35DF1 /* Sources */,
+				E4BAA3B22D60E49E00C35DF1 /* Frameworks */,
+				E4BAA3B32D60E49E00C35DF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4BAA3B72D60E49E00C35DF1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E4BAA3B82D60E49E00C35DF1 /* ChatGPTScreenRecorderTests */,
+			);
+			name = ChatGPTScreenRecorderTests;
+			packageProductDependencies = (
+			);
+			productName = ChatGPTScreenRecorderTests;
+			productReference = E4BAA3B52D60E49E00C35DF1 /* ChatGPTScreenRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4BAA3BE2D60E49E00C35DF1 /* ChatGPTScreenRecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4BAA3D02D60E49E00C35DF1 /* Build configuration list for PBXNativeTarget "ChatGPTScreenRecorderUITests" */;
+			buildPhases = (
+				E4BAA3BB2D60E49E00C35DF1 /* Sources */,
+				E4BAA3BC2D60E49E00C35DF1 /* Frameworks */,
+				E4BAA3BD2D60E49E00C35DF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4BAA3C12D60E49E00C35DF1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E4BAA3C22D60E49E00C35DF1 /* ChatGPTScreenRecorderUITests */,
+			);
+			name = ChatGPTScreenRecorderUITests;
+			packageProductDependencies = (
+			);
+			productName = ChatGPTScreenRecorderUITests;
+			productReference = E4BAA3BF2D60E49E00C35DF1 /* ChatGPTScreenRecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4BAA3972D60E49D00C35DF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					E4BAA39E2D60E49D00C35DF1 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E4BAA3B42D60E49E00C35DF1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E4BAA39E2D60E49D00C35DF1;
+					};
+					E4BAA3BE2D60E49E00C35DF1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E4BAA39E2D60E49D00C35DF1;
+					};
+				};
+			};
+			buildConfigurationList = E4BAA39A2D60E49D00C35DF1 /* Build configuration list for PBXProject "ChatGPTScreenRecorder" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4BAA3962D60E49D00C35DF1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E4BAA3A02D60E49D00C35DF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4BAA39E2D60E49D00C35DF1 /* ChatGPTScreenRecorder */,
+				E4BAA3B42D60E49E00C35DF1 /* ChatGPTScreenRecorderTests */,
+				E4BAA3BE2D60E49E00C35DF1 /* ChatGPTScreenRecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4BAA39D2D60E49D00C35DF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BAA3B32D60E49E00C35DF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BAA3BD2D60E49E00C35DF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4BAA39B2D60E49D00C35DF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BAA3B12D60E49E00C35DF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BAA3BB2D60E49E00C35DF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4BAA3B72D60E49E00C35DF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4BAA39E2D60E49D00C35DF1 /* ChatGPTScreenRecorder */;
+			targetProxy = E4BAA3B62D60E49E00C35DF1 /* PBXContainerItemProxy */;
+		};
+		E4BAA3C12D60E49E00C35DF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4BAA39E2D60E49D00C35DF1 /* ChatGPTScreenRecorder */;
+			targetProxy = E4BAA3C02D60E49E00C35DF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4BAA3C92D60E49E00C35DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XR7R62R49;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatGPTScreenRecorder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techpal.mobile.ChatGPTScreenRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4BAA3CA2D60E49E00C35DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XR7R62R49;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatGPTScreenRecorder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techpal.mobile.ChatGPTScreenRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4BAA3CB2D60E49E00C35DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4BAA3CC2D60E49E00C35DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4BAA3CE2D60E49E00C35DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XR7R62R49;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techpal.mobile.ChatGPTScreenRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatGPTScreenRecorder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatGPTScreenRecorder";
+			};
+			name = Debug;
+		};
+		E4BAA3CF2D60E49E00C35DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XR7R62R49;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techpal.mobile.ChatGPTScreenRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatGPTScreenRecorder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatGPTScreenRecorder";
+			};
+			name = Release;
+		};
+		E4BAA3D12D60E49E00C35DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XR7R62R49;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techpal.mobile.ChatGPTScreenRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChatGPTScreenRecorder;
+			};
+			name = Debug;
+		};
+		E4BAA3D22D60E49E00C35DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7XR7R62R49;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techpal.mobile.ChatGPTScreenRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChatGPTScreenRecorder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4BAA39A2D60E49D00C35DF1 /* Build configuration list for PBXProject "ChatGPTScreenRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BAA3CB2D60E49E00C35DF1 /* Debug */,
+				E4BAA3CC2D60E49E00C35DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4BAA3C82D60E49E00C35DF1 /* Build configuration list for PBXNativeTarget "ChatGPTScreenRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BAA3C92D60E49E00C35DF1 /* Debug */,
+				E4BAA3CA2D60E49E00C35DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4BAA3CD2D60E49E00C35DF1 /* Build configuration list for PBXNativeTarget "ChatGPTScreenRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BAA3CE2D60E49E00C35DF1 /* Debug */,
+				E4BAA3CF2D60E49E00C35DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4BAA3D02D60E49E00C35DF1 /* Build configuration list for PBXNativeTarget "ChatGPTScreenRecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BAA3D12D60E49E00C35DF1 /* Debug */,
+				E4BAA3D22D60E49E00C35DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4BAA3972D60E49D00C35DF1 /* Project object */;
+}
