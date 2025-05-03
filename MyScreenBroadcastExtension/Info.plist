@@ -11,5 +11,7 @@
 		<key>RPBroadcastProcessMode</key>
 		<string>RPBroadcastProcessModeSampleBuffer</string>
 	</dict>
+	<key>RPBroadcastExtensionPointIdentifier = com.apple.broadcast-services-upload</key>
+	<string></string>
 </dict>
 </plist>

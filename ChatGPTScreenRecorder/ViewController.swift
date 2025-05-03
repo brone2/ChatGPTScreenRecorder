@@ -11,6 +11,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("github is a company of faggots")
         // Do any additional setup after loading the view.
     }
 
